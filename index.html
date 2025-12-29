@@ -262,6 +262,23 @@
     color: #2E8B57;
   }
   
+  /* Ad container styles */
+  .ad-container {
+    text-align: center;
+    margin: 15px auto;
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+  }
+  
+  .banner-ad {
+    width: 320px;
+    height: 50px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
   /* Mobile optimizations */
   @media (max-width: 768px) {
     body {
@@ -288,6 +305,11 @@
     .section {
       padding: 15px;
     }
+    
+    .banner-ad {
+      width: 100%;
+      max-width: 320px;
+    }
   }
   
   @media (max-width: 480px) {
@@ -307,6 +329,9 @@
 </head>
 <body>
 
+<!-- Social Bar Ad (Top of page) -->
+<script src="https://pl28358950.effectivegatecpm.com/d2/cf/67/d2cf671ef8dc558460e2ed54677d7902.js"></script>
+
 <div class="container">
   <div class="header">
     <h1>📊 Budget Tracker</h1>
@@ -319,6 +344,22 @@
         <option value="JPY">JPY (¥)</option>
         <option value="CAD">CAD (C$)</option>
       </select>
+    </div>
+  </div>
+  
+  <!-- Banner Ad (Below header) -->
+  <div class="ad-container">
+    <div class="banner-ad">
+      <script>
+        atOptions = {
+          'key' : '3137ad55f3be25a4e738bd6ebed13fe5',
+          'format' : 'iframe',
+          'height' : 50,
+          'width' : 320,
+          'params' : {}
+        };
+      </script>
+      <script src="https://www.highperformanceformat.com/3137ad55f3be25a4e738bd6ebed13fe5/invoke.js"></script>
     </div>
   </div>
   
@@ -358,6 +399,22 @@
       <button onclick="calculateBalance()">Calculate Balance</button>
     </div>
     
+    <!-- Banner Ad (Middle of content) -->
+    <div class="ad-container">
+      <div class="banner-ad">
+        <script>
+          atOptions = {
+            'key' : '3137ad55f3be25a4e738bd6ebed13fe5',
+            'format' : 'iframe',
+            'height' : 50,
+            'width' : 320,
+            'params' : {}
+          };
+        </script>
+        <script src="https://www.highperformanceformat.com/3137ad55f3be25a4e738bd6ebed13fe5/invoke.js"></script>
+      </div>
+    </div>
+    
     <!-- Add Expense Section -->
     <div class="section">
       <h2 class="section-title">➕ Add Expense</h2>
@@ -394,6 +451,22 @@
       <ul class="expense-list" id="expenseList">
         <li class="no-data">No expenses yet. Add your first expense above.</li>
       </ul>
+    </div>
+    
+    <!-- Banner Ad (Before reset button) -->
+    <div class="ad-container">
+      <div class="banner-ad">
+        <script>
+          atOptions = {
+            'key' : '3137ad55f3be25a4e738bd6ebed13fe5',
+            'format' : 'iframe',
+            'height' : 50,
+            'width' : 320,
+            'params' : {}
+          };
+        </script>
+        <script src="https://www.highperformanceformat.com/3137ad55f3be25a4e738bd6ebed13fe5/invoke.js"></script>
+      </div>
     </div>
     
     <!-- Reset Button -->
@@ -593,5 +666,9 @@ document.getElementById('customCategory').addEventListener('keypress', function(
   if (e.key === 'Enter') addExpense();
 });
 </script>
+
+<!-- Social Bar Ad (Bottom of page) -->
+<script src="https://pl28358950.effectivegatecpm.com/d2/cf/67/d2cf671ef8dc558460e2ed54677d7902.js"></script>
+
 </body>
 </html>
